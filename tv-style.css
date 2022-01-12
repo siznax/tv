@@ -1,0 +1,35 @@
+body {
+    background-color: #333;
+    color: #ddd;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.tv-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tv-box a {
+    text-decoration: none;
+}
+
+.tv-box > div {
+    margin: 0.4em;
+    padding: 1em;
+    border: 1px solid #444;
+    border-radius: 0.4em;
+    font-size: 1.4em;
+    background-color: #121212;
+}
+
+.tv-box img {
+    margin: 8px;
+    max-width: 200px;
+    border-radius: 8px;
+}
