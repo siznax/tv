@@ -15,24 +15,18 @@ a {
     flex-wrap: wrap;
 }
 
-.tv-box a {
-    text-decoration: none;
-}
-
 .tv-box div.link {
     margin: 1%;
     padding: 2%;
+    font-size: 1.8vw;
     border: 1px solid #444;
     border-radius: 8px;
-    font-size: 1.8vw;
     background-color: #121212;
 }
 
 .tv-box div.poster {
     margin: 2%;
-    padding: 0px;
     width: 20%;
-    border-radius: 8px;
 }
 
 .tv-box div.poster img {
