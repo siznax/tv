@@ -13,6 +13,11 @@ a {
     text-decoration: none;
 }
 
+div a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
 div {
     margin: 5vh 0;
     display: flex;
