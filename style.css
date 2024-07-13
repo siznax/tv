@@ -8,7 +8,7 @@ a {
     color: whitesmoke;
 
     padding: 1vw 2vw;
-    margin: 1vw;
+    margin: 0.75vw;
     border-radius: 0.6vw;
     text-decoration: none;
 }
@@ -26,12 +26,12 @@ div {
 }
 
 div#posters a {
-    margin: 2vw;
+    margin: 0.75vw;
     padding: 0;
     background-color: inherit;
 }
 
 div#posters img {
-    width: 20vw;
+    width: 12vw;
     border-radius: 0.6vw;
 }
