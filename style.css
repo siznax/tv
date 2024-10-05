@@ -35,3 +35,6 @@ div#posters img {
     width: 15vw;
     border-radius: 0.6vw;
 }
+hr {
+    margin: 64px;
+}
