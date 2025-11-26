@@ -13,8 +13,12 @@ a {
     text-decoration: none;
 }
 
+div a.color1 {
+    background-color: DarkKhaki;
+    color: white;
+}
 div a:hover {
-    background-color: goldenrod;
+    background-color: gold;
     color: black;
 }
 
@@ -38,3 +42,4 @@ div#posters img {
 hr {
     margin: 64px;
 }
+
