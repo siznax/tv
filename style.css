@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
 }
 
-a {
+div.links a, div.posters a, div.services a {
     background-color: #333;
     color: whitesmoke;
 
@@ -13,13 +13,8 @@ a {
     text-decoration: none;
 }
 
-div a.color1 {
-    background-color: DarkKhaki;
-    color: white;
-}
-div a:hover {
-    background-color: gold;
-    color: black;
+hr {
+    margin: 64px;
 }
 
 div {
@@ -29,17 +24,60 @@ div {
     flex-wrap: wrap;
 }
 
-div#posters a {
+div a.color1 {
+    background-color: #442222;
+    color: white;
+}
+
+div a:hover, div.services a:hover {
+    background-color: gold;
+    color: black;
+}
+
+div.posters a {
     margin: 0.75vw;
     padding: 0;
     background-color: inherit;
 }
 
-div#posters img {
+div.posters img {
     width: 15vw;
     border-radius: 0.6vw;
 }
-hr {
-    margin: 64px;
+
+div.services a {
+    background-color: #555;
+    display: block;
+    margin: 0;
 }
 
+div.services table {
+    border-spacing: 8px;
+}
+
+div.services table td {
+    text-align: center;
+}
+
+div.services table tr:last-child td {
+    color: #555;
+    font-size: 0.8em;
+    margin-top: 0;
+    padding: 8px;
+    background-color: #232323;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+div.services table tr:last-child td:hover {
+    color: lime;
+    background-color: #333;
+    cursor: default;
+}
+
+div.services table td span {
+    padding: 4px;
+    background-color: #333;
+    border-radius: 4px;
+}
