@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
 }
 
-div.links a, div.posters a, div.services a {
+a, div.links a, div.posters a, div.services a {
     background-color: #333;
     color: whitesmoke;
 
@@ -11,10 +11,6 @@ div.links a, div.posters a, div.services a {
     margin: 0.75vw;
     border-radius: 0.6vw;
     text-decoration: none;
-}
-
-hr {
-    margin: 64px;
 }
 
 div {
@@ -52,7 +48,7 @@ div.services a {
 }
 
 div.services table {
-    border-spacing: 8px;
+    border-spacing: 0.6vw;
 }
 
 div.services table td {
@@ -61,11 +57,11 @@ div.services table td {
 
 div.services table tr:last-child td {
     color: #555;
-    font-size: 0.8em;
+    font-size: 1vw;
     margin-top: 0;
-    padding: 8px;
+    padding: 1vw;
     background-color: #232323;
-    border-radius: 8px;
+    border-radius: 0.6vw;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
 }
@@ -77,7 +73,7 @@ div.services table tr:last-child td:hover {
 }
 
 div.services table td span {
-    padding: 4px;
+    padding: 1vw;
     background-color: #333;
-    border-radius: 4px;
+    border-radius: 0.6vw;
 }
