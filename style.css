@@ -11,6 +11,7 @@ a, div.links a, div.posters a, div.services a {
     margin: 0.75vw;
     border-radius: 0.6vw;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 div {
@@ -57,7 +58,6 @@ div.services table td {
 
 div.services table tr:last-child td {
     color: #555;
-    font-size: 1vw;
     margin-top: 0;
     padding: 1vw;
     background-color: #232323;
@@ -70,10 +70,4 @@ div.services table tr:last-child td:hover {
     color: lime;
     background-color: #333;
     cursor: default;
-}
-
-div.services table td span {
-    padding: 1vw;
-    background-color: #333;
-    border-radius: 0.6vw;
 }
